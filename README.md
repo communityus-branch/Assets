@@ -1,7 +1,10 @@
-# Daggerfall Tools for Unity
+# DAG Tools for Unity
 
-Daggerfall Tools for Unity is a code asset which acts as a bridge between Daggerfall’s binary data files and Unity3D.
-It consists of a mature API for opening and converting almost all of Daggerfall’s content files – plus a set of editor
-windows, example classes, and prefabs for quickly converting Daggerfall’s environments into fully functional Unity scenes.
+DAG Tools for Unity is a code asset which acts as a bridge between the Ethereum VM and Unity3D.
+It consists of a mature API for opening and converting almost all of the specification – plus a set of editor
+windows, example classes, and prefabs for quickly converting DAG blocks into fully functional Unity scenes.
 
-For more information: http://www.dfworkshop.net/?page_id=1224
+For more information: 
+
+Foundation:
+http://www.dfworkshop.net/?page_id=1224
