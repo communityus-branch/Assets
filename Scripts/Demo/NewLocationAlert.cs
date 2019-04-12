@@ -7,7 +7,7 @@
 
 using System;
 using UnityEngine;
-using UnityEngine.UI;
+//DAGUnity 5.0.5f1 using UnityEngine.UI;
 using System.Collections;
 
 namespace DaggerfallWorkshop.Demo
@@ -21,7 +21,8 @@ namespace DaggerfallWorkshop.Demo
         const float fadeDuration = 1;
         const float fadeTextWaitTime = 5;
 
-        public Text LocationText;
+        //DAGUnity 5.0.5f1
+        public GUIText LocationText;
 
         PlayerGPS playerGPS;
         bool isInLocationRect = false;
@@ -84,7 +85,7 @@ namespace DaggerfallWorkshop.Demo
             if (LocationText)
             {
                 LocationText.text = text;
-                LocationText.CrossFadeAlpha(1, fadeDuration, true);
+                //DAGUnity 5.0.5f1 LocationText.CrossFadeAlpha(1, fadeDuration, true);
                 fadingText = true;
                 showText = true;
                 fadeTextTimer = 0;
@@ -95,7 +96,7 @@ namespace DaggerfallWorkshop.Demo
         {
             if (LocationText)
             {
-                LocationText.CrossFadeAlpha(0, fadeDuration, true);
+                //DAGUnity 5.0.5f1 LocationText.CrossFadeAlpha(0, fadeDuration, true);
                 fadingText = true;
                 showText = false;
                 fadeTextTimer = 0;
@@ -106,7 +107,7 @@ namespace DaggerfallWorkshop.Demo
         {
             if (LocationText)
             {
-                LocationText.CrossFadeAlpha(0, 0, true);
+                //DAGUnity 5.0.5f1 LocationText.CrossFadeAlpha(0, 0, true);
                 isInLocationRect = false;
                 fadingText = false;
                 showText = false;
