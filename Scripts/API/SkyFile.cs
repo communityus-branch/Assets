@@ -111,6 +111,9 @@ namespace DaggerfallConnect.Arena2
         /// <returns>True if successful, otherwise false.</returns>
         public override bool Load(string filePath, FileUsage usage, bool readOnly)
         {
+            //DAGUnity 
+            UnityEngine.Debug.LogWarning(filePath);
+
             // Exit if this file already loaded
             if (managedFile.FilePath == filePath)
                 return true;

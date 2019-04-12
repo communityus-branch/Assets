@@ -205,6 +205,9 @@ namespace DaggerfallConnect.Utility
         /// <returns>True if successful, otherwise false.</returns>
         public bool Load(string filePath, FileUsage usage, bool readOnly)
         {
+            //DAGUnity 
+            UnityEngine.Debug.LogError(filePath);
+
             // Determine file access settings
             FileAccess fileAccess;
             FileShare fileShare;
